@@ -17,6 +17,6 @@ char C;
 for (C='A'; C<='z'; C++){
 putchar(C);
 }	
-
+putchar('\n');
 return (0);
 }
