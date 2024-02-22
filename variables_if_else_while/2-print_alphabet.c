@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main -entry point
+ * main - Prints the alphabet in lowercase.
  *
  * Return Always 0 (success)
  */
@@ -9,13 +10,12 @@
 int main(void)
 {
 
-char C;
+char letter;
 
 
-for(C = 'A'; C <= 'z'; C++)
-{
-putchar(C);
-}	
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+putchar('\n');	
 
 
 return (0);
