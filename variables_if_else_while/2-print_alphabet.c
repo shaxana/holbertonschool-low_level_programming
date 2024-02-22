@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -15,6 +17,6 @@ char C;
 for (C='A'; C<='z'; C++){
 putchar(C);
 }	
-return (C);
+
 return (0);
 }
