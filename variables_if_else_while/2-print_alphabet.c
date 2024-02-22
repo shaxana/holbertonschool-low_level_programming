@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
  * main -entry point
  *
- * Return Always (success)
+ * Return Always 0 (success)
  */
 
 int main(void)
@@ -14,9 +12,11 @@ int main(void)
 char C;
 
 
-for (C='A'; C<='z'; C++){
+for(C = 'A'; C <= 'z'; C++)
+{
 putchar(C);
 }	
-putchar('\n');
+
+
 return (0);
 }
