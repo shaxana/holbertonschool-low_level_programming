@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-    char c;
+	char c;
 
-  if(  c = 'A')
+if(c = 'A')
 return(1);
 printf("%c: %d\n", c, _isupper(c));
-    if(c = 'a')
+else if(c = 'a')
 return(0);
-    printf("%c: %d\n", c, _isupper(c));
-    return (0);
+printf("%c: %d\n", c, _isupper(c));
+return (0);
 }
