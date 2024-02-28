@@ -11,10 +11,13 @@ int main(void)
 	char c;
 
 if(c = 'A')
-return(1);
+{
 printf("%c: %d\n", c, _isupper(c));
+return (1);
+}
 else if(c = 'a')
-return(0);
+{
 printf("%c: %d\n", c, _isupper(c));
 return (0);
+}
 }
