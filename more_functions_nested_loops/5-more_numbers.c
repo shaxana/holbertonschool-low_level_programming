@@ -5,9 +5,9 @@
  */
 void more_numbers(void)
 {
-	int i=0;
+	int i;
 
-	for(; i < 14; i++)
+	for(i = 0; i < 15; i++)
 	{
 		_putchar((48 + i)*10);
 	}
