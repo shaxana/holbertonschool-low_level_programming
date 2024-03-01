@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - prints line 
- *
- * @n: variable.
+ * print_line - function to print line
+ * @n : integer value
+ * Return: Always 0.
  */
 void print_line(int n)
 {
