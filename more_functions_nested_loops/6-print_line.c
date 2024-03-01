@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * @n: variable.
  */
 void print_line(int n)
 {
