@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_line - prints line 
  *
  * @n: variable.
  */
