@@ -15,7 +15,6 @@ void puts2(char *str)
 		{
 			len++;
 		}
-
 	
 		for (i = 0; i < len; i += 2)
 		{
