@@ -3,8 +3,8 @@
 
 /**
  * _memcpy - copies memory area
- * @s: memory area
- * @d: memory area
+ * @src: memory area
+ * @dest: memory area
  * @n: number of bytes
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
