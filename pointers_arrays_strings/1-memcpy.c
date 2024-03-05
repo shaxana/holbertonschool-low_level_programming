@@ -5,7 +5,7 @@
  * _memcpy - copies n bytes of memory
  * @src: source to be copied from
  * @dest: pointer to destination str
- * @n: number of bytes to copy
+ * @n: number of bytes to copi
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -16,4 +16,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		*dest++ = *src++;
 	}
+	return (start);
 }
